@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <style>
+
+            body { 
+                position: relative;
+                background-color: #244b5a;
+                color:white;
+            }
+
+            .wrapper {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                /* border-style: solid; */
+            }
+
+            .img_wrapper {
+                padding: 25px;
+                margin: auto;
+                max-width: 900px;
+                display: flex;
+                justify-content: space-between;
+                /* border-style: solid; */
+            }
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+            }
+
+            .flex_container {
+                padding: 25px;
+                margin: auto;
+                max-width: 900px;
+                display: flex;
+                justify-content: space-between;
+                /* border-style: solid; */
+            }
+            
+            .block_head {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+            }
+
+            .block_dial {
+                width: 200px;
+                height: 200px;
+                margin: 50px;
+                border-radius: 50%;
+                border: 3px solid white;
+                position: relative;  
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <h1 class="block_head">X Team Standup Meeting - Y.Z Release</h1>
+            <div class="img_wrapper"> 
+                <img src="./img/placeholder.png">
+                <!-- https://pbs.twimg.com/media/DjB8dCCW0AEmP_j.jpg -->
+            </div>
+
+            <div class="flex_container">
+            
+                <div class="block_clock">
+                    <h1 class="block_head">Atlanta</h1>
+                    <div class="block_dial">
+                        <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:200px;height:200px;"src="https://www.clocklink.com/html5embed.php?clock=024&timezone=USA_Atlanta&color=black&size=200&Title=&Message=&Target=&From=2020,1,1,0,0,0&Color=black"></iframe>
+                    </div>
+                </div>
+            
+                <div class="block_clock">
+                    <h1 class="block_head">London</h1>
+                    <div class="block_dial">
+                        <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:200px;height:200px;"src="https://www.clocklink.com/html5embed.php?clock=024&timezone=UnitedKingdom_Belfast&color=black&size=200&Title=&Message=&Target=&From=2020,1,1,0,0,0&Color=black"></iframe>
+                    </div>
+                </div>
+            
+                <div class="block_clock">
+                    <h1 class="block_head">Bengaluru</h1>
+                    <div class="block_dial">
+                        <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:200px;height:200px;"src="https://www.clocklink.com/html5embed.php?clock=024&timezone=India_Bangalore&color=black&size=200&Title=&Message=&Target=&From=2020,1,1,0,0,0&Color=black"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
